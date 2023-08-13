@@ -1,8 +1,5 @@
 package com.grupog1.reto01modulo2.Controller;
-
 import java.util.List;
-
-
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

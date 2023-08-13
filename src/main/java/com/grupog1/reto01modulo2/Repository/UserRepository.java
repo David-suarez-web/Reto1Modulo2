@@ -42,6 +42,16 @@ public class UserRepository {
         userCRUDRepository.delete(user);
     }
 
+
+    public UserCRUDRepository getUserCRUDRepository() {
+        return userCRUDRepository;
+    }
+
+
+    public void setUserCRUDRepository(UserCRUDRepository userCRUDRepository) {
+        this.userCRUDRepository = userCRUDRepository;
+    }
+
 }
   
     
